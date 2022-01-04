@@ -1,0 +1,81 @@
+/* todo--------------------------------------add font-family ibm-plex-sans-------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+img {
+	width: 100%;
+}
+/* todo------------------------------------HEADER AREA-------------------------------------------------------*/
+.navbar-brand {
+	width: 10%;
+}
+.nav-item a {
+	font-size: 1.4rem;
+}
+
+.nav-item:hover a {
+	color: rgb(0 0 0 / 99%);
+}
+.nav-item {
+	transition: all 0.5s;
+	padding: 0px 8px;
+}
+
+/* todo------------------------------------HOME-SLIDER AREA-----------------------------------------------------*/
+
+.carousel-item {
+	width: 100%;
+	max-height: 90vh;
+}
+
+#home-slider {
+	position: relative;
+}
+#home-slider::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	top: 0px;
+	max-height: 90vh;
+	z-index: 1;
+}
+
+.carousel-caption {
+	z-index: 1;
+}
+
+/* todo------------------------------------ABOUT-US AREA-----------------------------------------------------*/
+
+.sec-title h1 {
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 400;
+}
+
+.about-img {
+	min-width: 100%;
+	max-height: 300px;
+}
+/* todo------------------------------------OUR-SERVICES AREA-----------------------------------------------------*/
+
+.services-row img {
+	width: 100%;
+	height: 100%;
+	max-height: 200px;
+}
+.rm-sdpace {
+	padding: 0;
+}
+.card {
+	min-height: 200px;
+	max-height: 400px;
+}
+
+/* todo------------------------------------CHECK-OUT AREA-----------------------------------------------------*/
+#check-out {
+	background: #a6dcef;
+}
